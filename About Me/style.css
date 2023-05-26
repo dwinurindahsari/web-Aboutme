@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Unna', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background: #191919;
+}
+
+nav {
+    display: flex;
+    width: 85%;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    justify-content: space-between;
+    padding: 45px 0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: rgb(54, 44, 29);
+    border-bottom: 1px solid white;
+
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: burlywood;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+
+
+}
+
+nav ul li a:hover {
+    color: burlywood;
+    transition: 0.5s;
+}
+
+.image {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+
+}
+
+.image img {
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 39%;
+    transform: translateX(20%);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h4 {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: burlywood;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+.content a {
+    font-size: 20px;
+    background: bisque;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px white;
+}
+
+.content a:hover {
+    background: white;
+    border: 2px bisque;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+}
+
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid burlywood;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+
+}
+
+.more {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #191919;
+    display: flex;
+}
+
+.box {
+    margin: 20px;
+    width: 750px;
+    height: 350px;
+    box-shadow: -1px 0 10px wheat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    display: flexbox;
+    padding: 40px;
+
+}
+
+/*
+.more-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.more-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+*/
+.more-text r {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: justify;
+
+}
+
+/*
+.about-text r {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+
+}
+*/
+footer {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(190, 155, 110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: black;
+    font-size: 17px;
+    width: 200px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.sosial {
+    display: flex;
+}
+
+.sosial a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border-radius: 50%;
+    margin: 10px 10px;
+    color: white;
+    border: 2px solid white;
+}
+
+.sosial a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+    background: transparent;
+    border: 2px solid black;
+}
